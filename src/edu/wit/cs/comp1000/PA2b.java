@@ -2,8 +2,16 @@ package edu.wit.cs.comp1000;
 import java.util.Scanner;
 // TODO: document this class
 public class PA2b {
-
-	// TODO: document this function
+// TODO: document this function
+	/**
+	 * ask users for a b c in double form
+	 * carve a variable called indiscriminate 
+	 * conditionals checks if discriminant is less than zero prints imaginary
+	 * then checks if discriminant is equivalent to zero prints -b/(2*a)
+	 * else it finds the 2 roots and does another conditional
+	 * another if else to check which one is min and prints it from lowest to greatest
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO: write your code here
 		Scanner scanner = new Scanner(System.in);

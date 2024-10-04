@@ -2,7 +2,19 @@ package edu.wit.cs.comp1000;
 import java.util.Scanner;
 // TODO: document this class
 public class PA2a {
-
+/**
+ * initalize scanner
+ * create 5 variables positive sum, non positive sum, total sum ,positive and negative divisor
+ * loops 5 times to ask for user ints
+ * adds user int to sum of total 
+ * checks whether it is a positive number if so adds it to positive sum and increase divisor by 1
+ * else it falls into non positive sum and increases divisor by one
+ * if else conditionals for both positive and non-positive average
+ * both check if the divisor is 0 if it is then it will return 0 so it does not print null
+ * else it returns the average
+ * following conditionals check if if the divsor is 1 if so it will mention the number as singular rather than plural 
+ * @param args
+ */
 	// TODO: document this function
 	public static void main(String[] args) {
 		// TODO: write your code here
